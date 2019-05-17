@@ -1,8 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const CardSection=()=>{
-    const { children } = props;
+const CardSection=({ children })=>{
     return (
         <View>
             { children }

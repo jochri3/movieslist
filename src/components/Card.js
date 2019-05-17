@@ -1,8 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Card=()=>{
-    const { children } = props;
+const Card=({ children })=>{
     return (
         <View>
             { children }
@@ -12,7 +11,7 @@ const Card=()=>{
 
 const styles={
     containerStyles:{
-        
+
     }
 }
 

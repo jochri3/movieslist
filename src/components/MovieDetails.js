@@ -4,16 +4,15 @@ import Card from './Card';
 import CardSection from './CardSection';
 import Button from './Button';
 
-const MovieDetails = (props) =>{
-   const { Title, Year, Poster} = props.movie; 
+const MovieDetails = ({movie}) =>{
     return (
         <Card>
             <CardSection>
-                <Text>{ Title }</Text>
+                <Text>{ movie.Title }</Text>
             </CardSection>
 
             <CardSection>
-                <Text>{ Title }</Text>
+                <Text>{ movie.Title }</Text>
             </CardSection>
 
             <CardSection>
