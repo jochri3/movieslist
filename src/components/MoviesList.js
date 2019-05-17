@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import MovieDetails from './MovieDetails';
 
 class MoviesList extends Component{
-    constructor(){
+    constructor(props){
         super(props);
     }
     
